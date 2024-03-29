@@ -1,0 +1,240 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-decoration: none;
+    background-color: black;
+    height: 40px;
+
+   
+    
+}
+.a{
+    text-decoration: none;
+}
+.button{
+    background-color: #b17030;
+    color: #fff;
+}
+
+.div1{
+    background-image: url('images/living.jpg');
+    color: white;
+  text-align: center;
+  height: 400px;
+  
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    /* position: absolute; */
+    justify-content: space-between;
+}
+.text1{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
+.alignedtext{
+    text-align: center;
+    align-items: center;
+
+}
+.brown{
+    color: #b17030;
+}
+.Products{
+    display: flex;
+    flex-direction: row;
+    /* position: absolute; */
+    justify-content: space-between;  
+}
+.image{
+    width: 200px;
+}
+.style{
+    display: flex;
+    align-content: center;
+}
+.couch{
+    height: 500px;
+    width: 400px;
+}
+.couch1{
+    height: 300px;
+    margin-top: 10%;
+}
+
+.fun{
+    height: 600px;
+    margin-bottom: 4%;
+}
+.flex{
+    display: flex;
+}
+.reviews{
+    background-color: #D5c2B1;
+    justify-content:space-between;
+    
+}
+.Testimonials{
+    display: flex;
+    gap: 10px;
+    
+}
+.test1{
+    background-color: #fff;
+
+
+}
+.test2{
+    background-color: #fff;
+
+}
+.test3{
+    background-color: #fff;
+
+}
+.Alex{
+    display: flex;
+    gap: 10px;
+}
+.May{
+    display: flex;
+}
+.last{
+    display: flex;
+}
+.Trick{
+    background-image: url('images/table.jpg');
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:375px) {
+    .navbar{
+        display: grid;
+       grid-template-columns: 1 1fr;
+        gap: 50px;
+        text-decoration: none;
+        background-color: black;
+        height: 40px;
+    
+       
+        
+    }
+    .a{
+        text-decoration: none;
+    }
+    .button{
+        background-color: #b17030;
+        color: #fff;
+    }
+    
+    .div1{
+        background-image: url('images/living.jpg');
+        color: white;
+      text-align: center;
+      height: 400px;
+      
+    }
+    .body{
+        overflow: hidden;
+    }
+    .icons{
+        display: grid;
+       grid-template-columns: 1 1fr;
+        /* position: absolute; */
+        justify-content: space-between;
+    }
+    .text1{
+        position: absolute;
+        left: 300px;
+        top: 200px;
+    }
+    .alignedtext{
+        text-align: center;
+        align-items: center;
+    
+    }
+    .brown{
+        color: #b17030;
+    }
+    .Products{
+        display: grid;
+        grid-template-columns: 1 1fr;
+    }
+    .image{
+        width: 200px;
+    }
+    .style{
+        display: grid;
+        grid-template-columns: 1 1fr;
+    }
+    .couch{
+        height: 200px;
+        width: 200px;
+    }
+    .couch1{
+        height: 200px;
+        margin-top: 10%;
+    }
+    
+    .fun{
+        height: 200px;
+        
+    }
+    .flex{
+        display: grid;
+        grid-template-columns: 1 1fr;
+
+    }
+    .reviews{
+        background-color: #D5c2B1;
+        justify-content:space-between;
+        
+    }
+    .Testimonials{
+        display: grid;
+        grid-template-columns: 1 1fr;
+        
+        
+    }
+    .test1{
+        background-color: #fff;
+    
+    
+    }
+    .test2{
+        background-color: #fff;
+    
+    }
+    .test3{
+        background-color: #fff;
+    
+    }
+    .Alex{
+        display: grid;
+        gap: 10px;
+    }
+    .May{
+        display: grid;
+    }
+    .last{
+        display: grid;
+    }
+    .Trick{
+        background-image: url('images/table.jpg');
+        
+    }
+    
+    .footer{
+        display: grid;
+        justify-content: space-between;
+        background-color: black;
+    }  
+}
